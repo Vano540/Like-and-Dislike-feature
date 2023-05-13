@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+img {
+    margin: 20px;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+button {
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#like {
+    background-color: lightseagreen;
+}
+
+#dislike {
+    background-color: lightsalmon;
+}
+
+#delete {
+    background-color: aliceblue;
+    color: black;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#votes1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#votes2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+div {
+    display: block;
+}
