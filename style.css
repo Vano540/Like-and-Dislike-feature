@@ -17,14 +17,18 @@ button {
     color: white;
     padding: 10px;
     font-size: 15px;
+    position: relative;
+    bottom: 40px;
 }
 
 #like {
-    background-color: lightseagreen;
+    width: 70px;
+    height: 70px;
 }
 
 #dislike {
-    background-color: lightsalmon;
+    width: 70px;
+    height: 70px;
 }
 
 #delete {
@@ -45,6 +49,18 @@ button {
     font-size: 25px;
 }
 
-div {
-    display: block;
+#page2P {
+    border: solid 5px black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#link2P {
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: black;
+    color: azure;
 }
